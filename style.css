@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#{
+    display: flex;
+    align-items: center;
+    justify-content: sapce-between;
+    min-height: 10vh;
+    color: rgb(126, 72, 72);
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin: 40px;
+    
+}
+.nav-links li{
+    padding-left: 3rem;
+    margin-left: 10%;
+    font-size: 0.8rem;
+    font-family:'Charming cheldish', sans-serif ;
+   
+}
+.nav-links a{
+    color:rgb(126, 113, 113) ;
+    text-decoration:none ;
+    letter-spacing: 3px;
+}
+.nav-links a:hover{
+color: rgb(210, 70, 70);
+
+}
+
+#logo{
+    font-family:'Charming Cchildish', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-left: 10%;
+    padding-top: 5%;
+    color: rgb(126, 113, 113);
+    letter-spacing: 3PX;
+
+}
+.img-head{
+    background: black;
+    border: 20px solid black;
+    padding:100px;
+    margin-left: 0%;
+    width: 100%;
+    height: 50%;
+
+}
+#img-entete{
+
+    padding-left: 300px;
+    width: 60%;
+    height: 40%; 
+
+}
+.sous-img{
+    position: absolute;
+    color: aliceblue;
+    top:30%;
+    font-family: 'Charming Childish',sans-serif;
+    font-size: 4rem;
+
+}
+.sous-img1{
+    position: absolute;
+    color: aliceblue;
+    top:45%;
+    font-family: 'Charming Childish',sans-serif;
+    font-size: 3.5rem;  
+}
+main{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.big-text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-family:"Anabeilla_Demo",cursive;
+    font-size: 4rem;
+    color:white;
+}
+.intro{
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.slider{
+    background-color:rgb(150, 148, 148);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    
+}
+.intro-text{
+    color: aliceblue;
+    font-family: "Charming Childish", sans-serif;
+    font-size: 2.5rem;
+}
+.hide{
+    background: black;
+    overflow: hidden;
+}
+.hide span{
+    transform: translateY(100%);
+    display:inline-block;
+}
+#button{
+    background-color: rgb(150, 148, 148);
+    position:absolute;
+    bottom: 20%;
+    width: 15%;
+    height: 5%;
+    font-family: "Charming Childish", sans-serif ;
+    font-size: 1rem;
+    font:black;
+    
+    
+}
+.box-in{
+    
+}
+footer{
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Charming Cheldish",sans-serif;
+    padding-top: 40px;
+    color:aliceblue;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: lighter;
+
+
+}
+.footer-content h3{
+    font-size: 1.4rem;
+    font-family: "Charming Childish", sans-serif;
+    font-weight: lighter;
+    text-transform: capitalize;
+    line-height: 3rem;
+    letter-spacing: 3px;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: "Charming Childish", sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    
+}
+#info{
+    font-size: 1rem;
+    word-spacing: 2px;
+    font-style: 'Charming Childish', sans-serif;
+    font-weight: lighter;
+    text-decoration-line: underline;
+}
+.top{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+   
+
+}
+.top-a{
+    color: aliceblue;
+    text-decoration-style: wavy;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-style: 'Charming Childish', sans-serif;
+    font-weight: lighter;
+    margin : 15px;
+
+    
+}
+.top-a:hover{
+    color:brown;
+
+}
+.top-link{
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    
+}
+.socials li{
+    margin: 10px;
+   
+
+}
+
+.footer-bottom{
+    background: black;
+    width: 80vw;
+    text-align: center;
+    
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.bottom-a{
+    color: aliceblue;
+    text-decoration: none;
+    font-style: 'Charming Childish', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+
+}
+.bottom-a:hover{
+    color: rgb(210, 70, 70);
+}
+.box-img{
+    
+    background-color: black;
+    border: 20px solid black;
+    padding:100px;
+    margin-left: 0%;
+    width: 100%;
+    height: 50%;
+    
+}
+
