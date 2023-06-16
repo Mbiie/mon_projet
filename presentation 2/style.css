@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #{
+display: flex;
+align-items: center;
+justify-content: sapce-between;
+min-height: 10vh;
+color: rgb(126, 72, 72);
+} */
+/*............................................NAV........................*/
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 40px;
+    text-decoration: none;
+
+}
+
+.nav-links li {
+    padding-left: 3rem;
+    margin-left: 10%;
+    font-size: 0.8rem;
+    font-family: 'Charming cheldish', sans-serif;
+    text-decoration: none;
+
+}
+
+.nav-links a {
+    color: rgb(126, 113, 113);
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: rgb(210, 70, 70);
+
+}
+
+#logo {
+    font-family: 'Charming Cchildish', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-left: 10%;
+    padding-top: 5%;
+    color: rgb(126, 113, 113);
+    letter-spacing: 3PX;
+    text-decoration: ;
+
+}
+/*.................................INTRO DESIGN..........................*/
+
+#intro-img{
+    float:left;
+    block-size: 40px;
+    padding-right:100px;
+}
+/*..................................réseau sociaux........................*/
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}    
+
+
+/*..........................................image en tête..................*/
+.sous-img {
+    position: absolute;
+    color: rgb(194, 198, 202);
+    top: 30%;
+    font-family: 'Charming Childish', sans-serif;
+    font-size: 2.5rem;
+
+}
+
+#img-entete{
+    display: block;
+    margin-bottom: 12px;
+    padding: 400px;
+}
+.sous-img{
+    padding-left:30px;
+    margin-top: 30px;
+}
+#color-field{
+    background-color: black;
+}
+main {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.big-text {
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    font-family: "Anabeilla_Demo", cursive;
+    font-size: 4rem;
+    color: white;
+}
+
+.intro {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.slider {
+    background-color: rgb(150, 148, 148);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    animation-iteration-count: infinite;
+}
+
+.intro-text {
+    color: aliceblue;
+    font-family: "Charming Childish", sans-serif;
+    font-size: 2.5rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+#button {
+    background-color: black;
+    width: 20%;
+    height: 15%;
+    font-family: "Charming Childish", sans-serif;
+    font-size: 1rem;
+    font: rgb(48, 46, 46);
+    margin-left: 40px;
+    border-radius: 5px;
+
+
+}
+/*.............................. espace..................................*/
+
+.espace{
+
+    font-family: "Charming Childish", sans-serif;
+    color:aliceblue;
+    font-size:3rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/*.............................. article              ........................*/
+.color-grey{
+    background-color: rgb(65, 63, 63);
+}
+
+.story{
+    margin-top: 5px;
+}
+#img-article {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-right: 1em;
+    padding-left: 25px;
+}
+
+.text-h2 {
+    font-family: 'Charming cheldish', sans-serif;
+    font-size: 2 rem;
+    font-weight: lighter;
+margin-bottom: 12px;
+color: rgb(126, 113, 113);
+
+}
+
+.text-content {
+font-family: 'Charming cheldish', sans-serif;
+font-size: 0.8rem;
+font-weight: lighter;
+color: rgb(126, 113, 113);
+padding-right: 60%;
+text-align: left;
+letter-spacing: 2px;
+
+}
+.button1 {
+color: rgb(37, 35, 35);
+text-align: center;
+font-family: 'Charming cheldish', sans-serif;
+font-size: 1 rem;
+font-weight: lighter;
+margin-top: 15px;
+background-color: rgb(223, 199, 199);
+border-radius: 0.5rem;
+margin: 15px;
+padding:5px;
+letter-spacing: 2px;
+
+}
+.button1:hover{
+color:brown;
+}
+#coloro {
+background-color: black;
+width: 700px;
+margin: auto;
+padding: 5%;
+margin-top: 5%;
+
+}
+
+input {
+display: block;
+margin-top: 15px;
+margin-bottom: 12px;
+padding: 10px;
+width: 100%;
+
+
+}
+/*..............................page contact..............................*/
+.titre-p {
+color: rgb(243, 236, 236);
+text-align: center;
+margin-bottom: 100px;
+font-family: 'Charming cheldish', sans-serif;
+font-size: 0.8 rem;
+font-weight: lighter;
+letter-spacing: 4px;
+}
+
+.color {
+color: rgb(243, 236, 236);
+text-align: left;
+font-family: 'Charming cheldish', sans-serif;
+font-size: 0.8rem;
+font-weight: lighter;
+padding: 0 20px;
+letter-spacing: 2px;
+}
+.contact-h2{
+color: rgb(126, 113, 113);
+text-align: center;
+font-family: 'Charming cheldish', sans-serif;
+font-size: 2rem;
+font-weight: lighter;
+letter-spacing: 2px;
+
+}
+#formulaire{
+    height: 90px;
+}
+/*.............................................PAGE PROJETS.........................*/
+.column {
+float: left;
+width: 25.50%;
+padding: 65px;
+text-align: justify;
+width: 30%;
+height: 30%;
+}
+.projet-h3{
+color:rgb(126, 113, 113);
+font-family: 'Charming cheldish', sans-serif;
+font-size: 1 rem;
+font-weight: lighter;
+margin-bottom: 7px;
+letter-spacing: 0.3em;
+}
+.p-projet{
+color:rgb(126, 113, 113);
+font-family: 'Charming cheldish', sans-serif;
+font-size: 13px;
+font-weight: lighter;
+letter-spacing: 2px;
+text-align: left;
+}
+.sec-projet{
+    
+}
+.button2{
+color: rgb(37, 35, 35);
+text-align: center;
+font-family: 'Charming cheldish', sans-serif;
+font-size: 10px;
+font-weight: lighter;
+margin-top: 15px;
+background-color: rgb(223, 199, 199);
+border-radius: 0.5rem;
+margin: 15px;
+padding:5px;
+letter-spacing: 2px; 
+}
+.button2 a{
+    text-decoration: none;
+}
+/*....................................................................FOOTER............................................................*/
+.footer {
+left: 10px;
+bottom: 10px;
+right: 10px;
+width: 105%;
+background-color: black;
+color : white;
+text-align: center;
+}
+.footer{
+background:black;
+padding:30px 0px;
+font-family: 'Charming cheldish', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:rgb(126, 113, 113);
+font-size:0.8em;
+
+}
+
+.footer .row a{
+text-decoration:none;
+color:rgb(126, 113, 113);
+transition:0.5s;
+}
+.footer .row a:hover{
+color:#b38f8f;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px)}.footer{
+
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px; 
+
+}
+.footer .row a i{
+margin:0% 3%;
+}
+.ul-projet{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    
+
+}
+.copy{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+/*....................................GRID..................................*/
+.card{
+    background-color: rgb(170, 158, 158);
+    border: 1px solid rgb(19, 18, 18);
+    padding: 4px;
+    border-radius: 3px;
+}
+.grid{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 400px);
+
+}
+.img-service{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display:inline-block;
+
+
+}
+
+#service{
+    background-color: black;
+    padding:50px;
+}
+.grid-wrapper > div {
+display :flex;
+justify-content:center;
+align-items:center ;
+
+}
+.grid-wrapper > div > img-service{
+    width:100% ; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grid-wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,  minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+
+}
+.grid-wrapper .wide{
+    grid-column: span 2;
+}
+.grid-wrapper .tall{
+    grid-row : span 2;
+}
+.grid-wrapper .big{
+    grid-column: span 2;
+    grid-row: sapn 2;
+}
+.contact-h3{
+    color:aliceblue;
+}
+/*...................................PAGE SERVICE..........................*/
+
+.sous-img-service{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Charming cheldish', sans-serif;
+    text-align:center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    justify-content: center;
+    
+}
+
